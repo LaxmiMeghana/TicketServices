@@ -24,6 +24,7 @@ namespace TicketServices.Repository
             Ticketlist.Add(new Ticket { Ticket_Id = 1, Cost = 100, Destination = "vskp-hyd" });
             Ticketlist.Add(new Ticket { Ticket_Id = 2, Cost = 300, Destination = "vskp-kk" });
             Ticketlist.Add(new Ticket { Ticket_Id = 3, Cost = 300, Destination = "vskp-hltt" });
+            Ticketlist.Add(new Ticket { Ticket_Id = 4, Cost = 200, Destination = "vskp-NZM" });
         }
 
             public IEnumerable<Ticket> GetAll()
